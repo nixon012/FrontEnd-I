@@ -92,7 +92,7 @@ body{
 @keyframes escalar {
     0% { border-radius:none;width: 150px;;}
     50% { width: 60px;background-color: #53d78a   }
-    75% { border-radius:50%;transform:scale(2);width: 60px;background-color:#d75355;transform: rotate(0);}
+    75% { border-radius:50%;width: 60px;background-color:#d75355;transform: rotate(0);}
     100% {transform: rotate(1turn); color: #b03038
 
 
@@ -109,7 +109,6 @@ body{
     width: 60px;
     border-radius: 50%;
     animation: escalar 1s ;
-    transform: scale(2) ;
     background-color: #b03038
 
 
